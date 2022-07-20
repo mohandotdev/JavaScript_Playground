@@ -1,7 +1,8 @@
 //String Declaration
 var firstname = "Mohanasundaram";
 var lastname = "Karthikeyan";
-console.log(firstname + " " + lastname);
+console.log(firstname);
+console.log(lastname);
 
 //Quoting Strings with Single Quotes
 var str = '<a href="https://www.example.com" target="_blank">Link</a>';
