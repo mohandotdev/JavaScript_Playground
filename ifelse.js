@@ -19,3 +19,14 @@ function testEqual(num)
     return "Not Equal";
 }
 console.log(testEqual(99));
+
+//Strict Equality operator
+function strictEquality(a,b)
+{
+    if(a===b)
+    {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+console.log(strictEquality(10,'10'));
