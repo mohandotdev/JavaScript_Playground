@@ -20,13 +20,22 @@ function testEqual(num)
 }
 console.log(testEqual(99));
 
-//Strict Equality operator
+//Strict Equality operator  
+function equality(a,b)
+{
+    if(a==b)      //  ---> Here the == automatically converts the string '10' to 10 int datatypes for comparision
+    {
+        return "Equal";
+    }
+    return "NotEqual";
+}
 function strictEquality(a,b)
 {
-    if(a===b)
+    if(a===b)         //  ---> Does not convert the data type to compare, it strictly follows the rule 
     {
         return "Equal";
     }
     return "Not Equal";
 }
+console.log(equality(10,'10'))
 console.log(strictEquality(10,'10'));
