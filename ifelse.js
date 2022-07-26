@@ -9,6 +9,19 @@ function trueOrfalse(isItTrue)
 }
 console.log(trueOrfalse(true));
 
+function range(num)
+{
+    if(num<10)
+    {
+        return "Lesser than 10";
+    }
+    else
+    {
+        return "Greater than 10";
+    }
+}
+console.log(range(45))
+
 //Equality operator
 function testEqual(num)
 {
@@ -39,3 +52,24 @@ function strictEquality(a,b)
 }
 console.log(equality(10,'10'))
 console.log(strictEquality(10,'10'));
+
+//And / Or Operator
+function andOperator(num)
+{
+    if(num>=25 && num<=50)
+    {
+        return "Yes";
+    }
+    return "No";
+}
+console.log(andOperator(47));
+
+function OrOperator(num)
+{
+    if(num < 10 || num >20)
+    {
+        return "Outside";
+    }
+    return "Inside";
+}
+console.log(OrOperator(15));
