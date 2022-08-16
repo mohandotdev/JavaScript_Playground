@@ -2,10 +2,12 @@ body
 {
     background: #1f1e1e;
 }
-.conatiner
+
+.container
 {
     max-width: 400px;
 }
+
 input[type=text],
 input[type=text]:focus
 {
@@ -23,3 +25,7 @@ input[type=text]:focus
 {
     cursor: pointer;
 }
+.filtered
+{
+    display: none !important;
+} 
