@@ -1,0 +1,16 @@
+body
+{
+    background: #000;
+}
+
+.container
+{
+    max-width: 400px;
+}
+
+input[type=text]
+{
+    border: none;
+    margin-top: 15px;
+    background: #373736;
+}
