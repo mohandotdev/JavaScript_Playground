@@ -1,16 +1,23 @@
 body
 {
     background: #000;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
 }
 
 .container
 {
     max-width: 400px;
 }
+.container h1
+{
+    color: #1DB954;
+}
 
 input[type=text]
 {
+    color: #000;
     border: none;
     margin-top: 15px;
-    background: #373736;
+    background: whitesmoke;
 }
