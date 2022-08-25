@@ -1,5 +1,5 @@
 //Api Key
-const key = config.apiKey;
+const key = 'qGbobGCdzB87YSA0VGcTHgdmEY2H3wm9';
 
 //Get weather info
 const getWeather = async (id) =>
