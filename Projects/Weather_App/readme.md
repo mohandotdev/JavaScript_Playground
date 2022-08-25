@@ -1,1 +1,1 @@
-**Simple Weather App using HTML,CSS,JavaScript**
+# Simple Weather App using HTML,CSS,JavaScript
